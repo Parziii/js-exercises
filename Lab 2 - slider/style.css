@@ -1,0 +1,38 @@
+#slider {
+  width: 600px;
+  height: 400px;
+  margin: 100px auto 0 auto;
+  overflow: hidden;
+}
+#slider .slides {
+  display: flex;
+}
+
+.slide {
+  transition: all 0.3s;
+}
+
+.bullets {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.bullet {
+  width: 10px;
+  height: 10px;
+  background: #000;
+  border-radius: 50%;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+@keyframes pociag-w-lewo {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-2000px);
+  }
+}
