@@ -1,0 +1,10 @@
+.weather-tile {
+  width: 300px;
+  height: 450px;
+  background: rgb(98, 183, 219);
+  border-radius: 14px;
+  margin-top: 40px;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+}
